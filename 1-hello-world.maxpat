@@ -13,38 +13,6 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-34",
-                    "maxclass": "slider",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 273.0, 335.0, 20.0, 140.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-33",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 560.0, 111.0, 150.0, 20.0 ],
-                    "text": "set time interval"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-31",
-                    "maxclass": "number",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "bang" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 506.0, 110.0, 50.0, 22.0 ]
-                }
-            },
-            {
-                "box": {
                     "id": "obj-28",
                     "linecount": 2,
                     "maxclass": "comment",
@@ -72,7 +40,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 553.0, 330.0, 150.0, 62.0 ],
+                    "patching_rect": [ 425.0, 375.0, 153.0, 62.0 ],
                     "text": "print command with popup attribute, 1 denoting popup is enabled as opposed to 0 for disabled"
                 }
             },
@@ -93,7 +61,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 238.0, 224.0, 150.0, 48.0 ],
+                    "patching_rect": [ 238.0, 224.0, 153.0, 48.0 ],
                     "text": "metronome triggers button every 1 second, can be done without button"
                 }
             },
@@ -104,7 +72,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 368.5, 51.0, 150.0, 34.0 ],
+                    "patching_rect": [ 368.5, 51.0, 151.0, 34.0 ],
                     "text": "toggle turns on and off the metronome"
                 }
             },
@@ -193,12 +161,6 @@
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
                     "source": [ "obj-3", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-6", 1 ],
-                    "source": [ "obj-31", 0 ]
                 }
             },
             {
